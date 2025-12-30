@@ -1,16 +1,16 @@
 #include <iostream>
+#include <iostream>
 #include <cstdlib>
 #include <ctime>
 using namespace std;
 
 int main() {
     string grades[] = {"A", "B+", "B", "C+", "C", "D+", "D", "F", "W"};
-    string input;
 
     cout << "Press Enter 3 times to reveal your future." << endl;
 
     for (int i = 0; i < 3; i++) {
-        getline(cin, input);
+        cin.get();
     }
 
     srand(time(0));
